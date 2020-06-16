@@ -1,0 +1,34 @@
+{
+  "name": "babel-configure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/code.js --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narumir/babel-configure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narumir/babel-configure/issues"
+  },
+  "homepage": "https://github.com/narumir/babel-configure#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-arrow-functions": "^7.10.1",
+    "@babel/plugin-transform-template-literals": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "babel-preset-minify": "^0.5.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.1",
+    "core-js": "^3.6.5"
+  }
+}
