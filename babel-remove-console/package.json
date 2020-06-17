@@ -1,0 +1,22 @@
+{
+  "name": "babel-remove-console",
+  "version": "1.0.0",
+  "description": "",
+  "main": "plugin-remove-console.js",
+  "scripts": {
+    "build": "babel --out-dir build src/code.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.6.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-arrow-functions": "^7.10.1",
+    "@babel/plugin-transform-template-literals": "^7.10.1",
+    "@babel/preset-env": "^7.10.2"
+  }
+}
