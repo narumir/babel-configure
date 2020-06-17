@@ -5,22 +5,25 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src --out-dir build --extensions '.ts'"
+    "build": "babel src --out-dir build --extensions '.ts'",
+    "dev": "nodemon ./src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.6.5"
+  },
   "devDependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
     "@babel/plugin-transform-template-literals": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-typescript": "^7.10.1",
     "@types/node": "^14.0.13",
-    "babel-plugin-module-resolver": "^4.0.0"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "nodemon": "^2.0.4",
     "typescript": "^3.9.5"
   }
 }
